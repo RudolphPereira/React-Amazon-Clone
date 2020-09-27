@@ -41,13 +41,13 @@ function Home() {
       <div className="home__row">
         <Product
           title="Smartify your Home With Products Exclusive From Amazon. Buy Today and stand a chance to win an Ipad!"
-          image="https://images-eu.ssl-images-amazon.com/images/G/31/AmazonDevices/LEEN/DC-Cards/05_379X304_Desktop_Card_SH._SY304_CB404302803_.jpg"
+          image="https://m.media-amazon.com/images/I/51GUqfXyxsL._AC_UY218_.jpg"
           price={29.99}
           rating={5}
         />
         <Product
-          title="Echo Smart Speakers For Every Corner Of Your Home. Life is Great when you are Happy!"
-          image="https://images-eu.ssl-images-amazon.com/images/G/31/AmazonDevices/LEEN/DC-Cards/08_379x304_Desktop_Card_Mix._SY304_CB404302420_.jpg"
+          title="Introducing Echo Show 8 – Smart display with Alexa - 8 HD screen with stereo sound – Black"
+          image="https://m.media-amazon.com/images/I/51UZ17lvVFL._AC_UY218_.jpg"
           price={100}
           rating={5}
         />
@@ -56,7 +56,7 @@ function Home() {
       <div className="home__row">
         <Product
           title="All-new Echo Plus With Built in Surveillance that Keeps you Entertained and Safe all at Once! "
-          image="https://images-eu.ssl-images-amazon.com/images/G/31/AmazonDevices/LEEN/DC-Cards/379x304_Desktop_Card_BE_01._SY304_CB404301999_.jpg"
+          image="https://m.media-amazon.com/images/I/61KIy6gX-CL._AC_UY218_.jpg"
           price={79.99}
           rating={5}
         />
