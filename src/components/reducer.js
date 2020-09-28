@@ -1,5 +1,13 @@
 export const initialState = {
-  basket: [],
+  basket: [
+    {
+      id: "141516",
+      title: "Apple iPhone 11 Pro Max (64GB) - Midnight Green",
+      image: "https://m.media-amazon.com/images/I/61ers6OzvUL._AC_UY218_.jpg",
+      price: 69.99,
+      rating: 5,
+    },
+  ],
   user: null,
 };
 const reducer = (state, action) => {
@@ -14,7 +22,14 @@ const reducer = (state, action) => {
       break;
     case "REMOVE_FROM_BASKET":
       // Logic for removing item to basket
-      return { state };
+      let newBasket = [...state.basket];
+      const index = state.basket.findIndex(
+        (basketItem) => basketItem.id === action.id
+      );
+      if (index >= 0) {
+        newBasket.splice(index, 1);
+      }
+      return { ...state, basket: newBasket };
       break;
     default:
       return state;
